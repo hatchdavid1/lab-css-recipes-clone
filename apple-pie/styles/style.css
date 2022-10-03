@@ -5,10 +5,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding: 5em;
+    padding: 80px;
     width: 84.7%;
-    margin: 0;
+    margin-left: -10px;
+    margin-right: -30px;
+    margin-top: -10px;
     border: 0px;
+    top: 0;
+    left: 0;
 }
 
 .header {
@@ -17,4 +21,49 @@
 	font-size: 80px;
 	text-align: center;
     position: relative;
+}
+#first_text{
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: rgb(102, 94, 94)
+}
+
+.images{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    size: 5px;
+}
+
+img.receta_png{
+    height: 2px 2px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 30%;
+    margin: 0;
+    border: 0px;
+    margin-left:350px;
+}
+div h3{
+    position: relative;
+    margin-left: 50px;
+    color: rgb(102, 94, 94);
+}
+
+div ol, div ul{
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: rgb(102, 94, 94);
+    text-align: justify;
+}
+
+hr{
+    margin-left: 70px;
+    margin-right: 70px;
 }
